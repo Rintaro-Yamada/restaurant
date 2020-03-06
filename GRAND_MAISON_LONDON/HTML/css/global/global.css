@@ -1,14 +1,36 @@
 /*----------------------------------
-  Font Size
+  new class that i made 
 ------------------------------------*/
 .g-font-padding a{
   margin-right: 30px;
 }
-
-.g-font-padding2 p{
-  margin-right: 500px;
+.container_portfolio{
+  padding-right: .9375rem;
+  padding-left: .9375rem;
+  margin-right: 10px;
+  margin-left: 10px;
 }
 
+.g-font-padding2 p{
+  white-space: nowrap;
+  margin-right: 900px;
+}
+
+.g-font-padding3 p{
+  white-space: nowrap;
+  margin-left: 950px;
+}
+
+
+
+
+
+
+
+
+/*----------------------------------
+  Font Size
+------------------------------------*/
 .g-font-size-10--xs {
   font-size: 0.625rem !important;
 }
