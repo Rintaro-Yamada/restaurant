@@ -1,0 +1,22 @@
+li{
+  list-style: none;
+  display: inline;
+  padding: 50px;
+}
+
+ul{
+  margin: auto;
+}
+
+p{
+  margin: 5em;
+}
+
+#title{
+  font-size: 2vw;
+}
+
+.menu{
+  font-size: 1.3vw;
+  line-height: 160%;
+}
