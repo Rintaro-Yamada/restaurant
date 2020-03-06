@@ -2615,5 +2615,6 @@ fieldset[disabled] .s-btn {
 
 /*home about text*/
 .index_about_text p{
+    font-size:20px;
     color: white;
 }
