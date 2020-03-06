@@ -2606,6 +2606,14 @@ fieldset[disabled] .s-btn {
     background: #13b1cd;
 }
 
+
+/*home_about theme*/
 .index_about_theme p {
-    font-size: 300px
+    font-size: 80px;
+    color:white;
+}
+
+/*home about text*/
+.index_about_text p{
+    color: white;
 }
