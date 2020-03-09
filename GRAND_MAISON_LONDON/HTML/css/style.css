@@ -4,15 +4,16 @@
 
 .menuBoxBorder p {
     padding: 0.5em 1em;
-    margin: 2em 0;
+    /*margin: 2em 0;*/
     font-weight: bold;
     border: solid 5px #ffffff;
 }
 
-.menuBoxBorder p {
-    margin-left: 1px;
-    padding: 10;
+.food_img{
+    width:2%;
+    height:20px;
 }
+
 
 html {
     overflow-x: hidden;
