@@ -1,6 +1,7 @@
 /*----------------------------------
   new class that i made 
 ------------------------------------*/
+
 .g-font-padding a{
   margin-right: 30px;
 }
@@ -8,8 +9,10 @@
     /*padding-right: .9375rem;
      padding-left: .9375rem;
   margin-right: 10px;
-  margin-left: 10px;*/
-    /*width:100%;*/
+  margin-left: 10px;
+    
+    min-width:1000px;*/
+    width: 100%;
 }
 
 .g-font-padding2 p{
