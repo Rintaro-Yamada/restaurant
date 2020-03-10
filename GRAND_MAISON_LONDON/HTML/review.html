@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+      <meta charset="UTF-8">
+      <link rel="stylesheet" href="review.css">
+      <title>review</title>
+      <script language="javascript" type="text/javascript">
+        function OnButtonClick() {
+            target = document.getElementById("output");
+            let review = prompt("コメントを入力してください。");
+            document.write(review);
+        }
+    </script>
+</head>
+
+<body>
+  <div id="title">
+    <center>
+    <h1>レビュー画面</h1>
+  </div>
+  <input type="button" value="レビューを書く" onclick="OnButtonClick();"/><br />
+   <br />
+   <div id="output"></div>
+<!-- <script type="text/javascript">
+
+</script> -->
+  </center>
+  </body>
+</html>
