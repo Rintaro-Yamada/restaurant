@@ -1,0 +1,35 @@
+body{
+  background-color: black;
+  background-image: url(img_menu/BG.jpg);
+  background-repeat: repeat;
+  font-family: serif;
+  color: white;
+}
+
+li{
+  list-style: none;
+  display: inline;
+  padding: 30px;
+}
+
+ul{
+  margin: auto;
+}
+
+p{
+  margin: 10px;
+}
+
+#title{
+  font-size: 2vw;
+}
+
+.menu{
+  font-size: 1.3vw;
+  line-height: 160%;
+  margin: 100px 60px 120px 60px;
+}
+
+img{
+  padding-right: 30px;
+}
