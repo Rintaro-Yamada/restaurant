@@ -789,8 +789,8 @@ fieldset[disabled] .s-btn {
 .s-icon--white-brd:focus,
 .s-icon--white-brd:hover {
     color: #fff;
-    background: #13b1cd;
-    border-color: #13b1cd;
+    background: #fdffff33;
+    border-color: #ffffff60;
 }
 
 .s-icon--white-bg {
