@@ -1,20 +1,4 @@
-﻿/*ヘッダータイトル*/
-.header {
-    width: 100%; /*ウィンドウ幅に合わせる：領域の幅*/
-    height: 4em;/*領域の高さ*/
-    font-size: 80px;/*文字の大きさ*/
-    color: white;/*文字の色*/
-    text-align: center; /*タイトルテキストを左右において中央に*/
-    background-image: url("restaurant.png"); /*背景画像*/
-    background-size: cover;/*背景領域を完全に覆う最小サイズになるように背景画像を拡大縮小*/
-}
-
-/*タイトルテキスト*/
-#title {
-    line-height: 4em;
-}
-
-.map {
+﻿.map {
     width: 45%; /*領域の幅*/
     height: 450px; /*領域の高さ*/
     float: left;/*要素を左詰めに*/
