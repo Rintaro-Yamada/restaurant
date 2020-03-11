@@ -5,26 +5,32 @@
       <meta charset="UTF-8">
       <link rel="stylesheet" href="review.css">
       <title>review</title>
-      <script language="javascript" type="text/javascript">
-        function OnButtonClick() {
-            target = document.getElementById("output");
-            let review = prompt("コメントを入力してください。");
-            document.write(review);
-        }
-    </script>
 </head>
 
 <body>
   <div id="title">
     <center>
-    <h1>レビュー画面</h1>
-  </div>
-  <input type="button" value="レビューを書く" onclick="OnButtonClick();"/><br />
-   <br />
-   <div id="output"></div>
-<!-- <script type="text/javascript">
-
-</script> -->
+    <h1>レビュー</h1>
   </center>
+  </div>
+
+    <p>お名前<br><input type="text" id="name"></p>
+    <p>コメント欄<br>
+      <textarea id="Textarea" cols="30" rows="5"></textarea></p>
+    <button onclick="myFunction()">送信</button>
+    <hr>
+    <center><h2>コメント一覧</h2></center>
+    <p id="out"><名無しさん><br>日本食もフランス食もイギリス食も楽しめて良いです。店の雰囲気もとても落ち着いており、ゆったりとした時間を家族や大切な人と過ごすことができます。
+    </p>
+
+  <script>
+    function myFunction() {
+      if(document.getElementById("name").value!=""&&document.getElementById("Textarea").value!=""){
+      document.getElementById("out").innerHTML += "<br><"+document.getElementById("name").value+"><br>";
+      document.getElementById("out").innerHTML +=document.getElementById("Textarea").value;
+      }
+    }
+  </script>
+ 
   </body>
 </html>
