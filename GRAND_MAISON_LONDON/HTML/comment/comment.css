@@ -1,0 +1,9 @@
+﻿.comment_up{
+    float:left;
+    width:50%;
+    background-color:azure;
+}
+
+.comment_down{
+    clear:left;
+}
