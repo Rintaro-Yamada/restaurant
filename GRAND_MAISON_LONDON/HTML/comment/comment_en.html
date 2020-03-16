@@ -130,14 +130,16 @@
         <hr>
         <center><h2>List of comments</h2></center>
         <p id="out">
-            <Noname><br>You can enjoy Japanese, French and British food. The atmosphere of the shop is very calm and you can spend a relaxing time with your family and loved ones.
+            < Noname ><br>You can enjoy Japanese, French and British food. The atmosphere of the shop is very calm and you can spend a relaxing time with your family and loved ones.
         </p>
     </div>
 
     <script>
         function myFunction() {
             if (document.getElementById("name").value != "" && document.getElementById("Textarea").value != "") {
-                document.getElementById("out").innerHTML += "<br><" + document.getElementById("name").value + "><br>";
+                document.getElementById("out").innerHTML += "<br>< ";
+                document.getElementById("out").innerHTML += document.getElementById("name").value;
+                document.getElementById("out").innerHTML += " ><br>";
                 document.getElementById("out").innerHTML += document.getElementById("Textarea").value;
             }
         }

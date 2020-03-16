@@ -138,11 +138,15 @@
     <script>
         function myFunction() {
             if (document.getElementById("name").value != "" && document.getElementById("Textarea").value != "") {
-                document.getElementById("out").innerHTML += "<br><" + document.getElementById("name").value + "><br>";
+                document.getElementById("out").innerHTML += "<br>< ";
+                document.getElementById("out").innerHTML += document.getElementById("name").value;
+                document.getElementById("out").innerHTML += " ><br>";
                 document.getElementById("out").innerHTML += document.getElementById("Textarea").value;
             }
         }
     </script>
+    <!-- Back To Top -->
+    <a href="javascript:void(0);" class="s-back-to-top js__back-to-top"></a>
 
     <!--========== JAVASCRIPTS (Load javascripts at bottom, this will reduce page load time) ==========-->
     <!-- Vendor -->
